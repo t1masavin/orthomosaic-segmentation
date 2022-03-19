@@ -30,3 +30,19 @@
 # img_out = torch.cat([img.int(), target.int()], dim=-1)
 # plt.imshow(K.tensor_to_image(img_out))
 # plt.axis('off')
+
+
+
+
+# train_dataset = GeoDataset(
+#     # image=image_train, mask=mask_train, 
+#     transforms=transforms,
+#     list_names=list_train,
+#     c=3, h=3000, w=3000)
+# train_dataloader = DataLoader(train_dataset, batch_size=4, num_workers=4)
+# val_dataset = GeoDataset(
+#     # image=image_train, mask=mask_train, 
+#     transforms=transforms_test,
+#     list_names=list_val,
+#     c=3, h=3000, w=3000)
+# val_dataloader = DataLoader(val_dataset, batch_size=4, num_workers=4)

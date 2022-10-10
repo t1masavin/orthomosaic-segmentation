@@ -1,0 +1,5 @@
+lightning_logs
+diplab.ckpt
+image_processing/data
+image_processing/image_crop/buildings_2.jpg
+image_processing/image_crop/buildings_3.jpg
